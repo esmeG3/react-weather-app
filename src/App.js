@@ -1,15 +1,15 @@
-import './App.css';
+import "./App.css";
+import Weather from "./Weather.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> 
-        <p>
-          Hello world
-        </p>
- 
-
+      <header className="App-header">
+        <p>Weather App</p>
       </header>
+      <body>
+      <Weather />
+      </body>
     </div>
   );
 }
