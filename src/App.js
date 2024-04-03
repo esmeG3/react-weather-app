@@ -7,16 +7,16 @@ function App() {
       <header className="App-header">
         <p>Weather App</p>
       </header>
-      <body>
-        <Weather />
-      </body>
+
+      <Weather />
+
       <footer>
         <p>
           This project was coded by{" "}
           <a href="https://github.com/esmeG3" target="_blank" rel="noreferrer">
             Esme G
           </a>{" "}
-          and is open-sourced on {" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/esmeG3/react-weather-app"
             target="_blank"
