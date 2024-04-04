@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Weather from "./Weather.js";
 
@@ -13,18 +14,22 @@ function App() {
       <footer>
         <p>
           This project was coded by{" "}
-          <a href="https://github.com/esmeG3" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/esmeG3"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             Esme G
           </a>{" "}
           and is open-sourced on{" "}
           <a
             href="https://github.com/esmeG3/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             GitHub
           </a>{" "}
-          and is hosted on <a href=""> Netlify</a>
+          and is hosted on <a href="/"> Netlify</a>
         </p>
       </footer>
     </div>
